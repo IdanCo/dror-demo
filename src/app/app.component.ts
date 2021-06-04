@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'dror-demo';
+  myVar = 'moshe6';
+  myArr = [1, 2, 3];
+
+  changeVar() {
+    this.myVar += 'haim'
+  }
 }
